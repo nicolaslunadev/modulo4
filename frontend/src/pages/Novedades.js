@@ -1,6 +1,11 @@
 const Novedades = (props) => {
     return (
-        <div>Esto es Novedades</div>
+        <section className="holder">
+            <h2>Novedades</h2>
+            <h3>Título</h3>
+            <h4>Subtítulo</h4>
+            <p>Cuerpo</p>
+        </section>
     );
 }
 export default Novedades;

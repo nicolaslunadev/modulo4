@@ -1,3 +1,5 @@
+import '../styles/components/pages/Home.css'
+
 const Home = (props) => {
     return (
         <main className="holder">
