@@ -37,7 +37,7 @@ const Contacto = (props) => {
     return (
         <main className="holder contacto">
             <div>
-                <h2>Contacto Rápido</h2>
+                <h2>Dejanos tu sugerencia!</h2>
                 <form action="/contacto" method="post" onSubmit={handleSubmit} className="formulario">
                     <p>
                         <label for="nombre">Nombre</label>
@@ -62,14 +62,11 @@ const Contacto = (props) => {
                 </form>
             </div>
             <div className="datos">
-                <h2>Otras vias de comunicación</h2>
+                <h2>Otras vías de comunicación</h2>
                 <p>También pueden contactarse con nosotros usando los siguientes medios</p>
                 <ul>
                     <li>Teléfono: 45345432</li>
                     <li>Email: contacto@reload.com</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Skype</li>
                 </ul>
             </div>
         </main>

@@ -1,11 +1,11 @@
 .bienvenidos{
-    width: 75%;
+    width: 65%;
     padding-right: 10px;
     box-sizing: border-box;
 }
 
 .testimonios{
-    width: 25%;
+    width: 35%;
 }
 
 .columnas{
@@ -23,7 +23,6 @@
 }
 
 .testimonio .cita{
-    background-color: yellow;
     font-weight: bold;
     font-style: italic;
     font-size: 22px;
@@ -31,9 +30,13 @@
 }
 
 .testimonio .autor{
-    background-color: lightcoral;
-    font-size: 10px;
+    font-size: 15px;
+    font-style: italic;
     text-align: center;
     display: block;
     margin: 10px 0;
+}
+
+.tamanio{
+    max-width: 60%;
 }

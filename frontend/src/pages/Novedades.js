@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import NovedadItem from '../componentes/novedades/NovedadItem';
+import '../styles/components/pages/Novedades.css'
 
 const Novedades = (props) => {
     const [loading, setLoading] = useState(false);
@@ -17,7 +18,7 @@ const Novedades = (props) => {
     }, []);
     return (
         <section className="holder">
-            <h2>Novedades</h2>
+            <h2>Noticias</h2>
             {
                 loading ? (
                     <p>Cargando...</p>
